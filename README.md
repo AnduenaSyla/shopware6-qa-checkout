@@ -30,13 +30,11 @@ time" are in [`automation/README.md`](automation/README.md).
 
 ## What I found difficult / what I enjoyed
 
-*(Draft — personalize this before you send it; see the note below.)*
-
 What I enjoyed most was working directly against the real storefront instead
 of guessing at markup: inspecting the actual DOM told a more interesting
 story than I expected. For example, typing "0" into the quantity field and
 clicking "Add to cart" with a real click is correctly blocked by the
-browser's own validation — but the exact same action triggered
+browser's own validation, but the same action triggered
 programmatically (as an automated test or a retried request would do)
 sails through with an HTTP 200 "success" response and silently adds
 nothing, with the server's own error message never reaching the screen.
