@@ -1,0 +1,19 @@
+{
+  "name": "shopware6-guest-checkout-e2e",
+  "version": "1.0.0",
+  "description": "Automated end-to-end test for the Shopware 6 guest checkout (Cash on Delivery) flow — QA/Automation Tester Intern practical exercise for Solution25.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.1",
+    "typescript": "^5.9.3"
+  }
+}
